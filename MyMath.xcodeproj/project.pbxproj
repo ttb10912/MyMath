@@ -14,6 +14,11 @@
 		43B6B2E31D708965001137EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43B6B2E11D708965001137EE /* LaunchScreen.storyboard */; };
 		43B6B2EE1D708966001137EE /* MyMathTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B6B2ED1D708966001137EE /* MyMathTests.swift */; };
 		43B6B2F91D708966001137EE /* MyMathUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B6B2F81D708966001137EE /* MyMathUITests.swift */; };
+		43B6B30B1D709368001137EE /* iPhone-5-Wallpaper-HD-abstract-14-Chalkboard-04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 43B6B3071D709368001137EE /* iPhone-5-Wallpaper-HD-abstract-14-Chalkboard-04.jpg */; };
+		43B6B3151D709E6B001137EE /* board.png in Resources */ = {isa = PBXBuildFile; fileRef = 43B6B3101D709E6B001137EE /* board.png */; };
+		43B6B3171D709E6B001137EE /* note1.png in Resources */ = {isa = PBXBuildFile; fileRef = 43B6B3121D709E6B001137EE /* note1.png */; };
+		43B6B3181D709E6B001137EE /* note2.png in Resources */ = {isa = PBXBuildFile; fileRef = 43B6B3131D709E6B001137EE /* note2.png */; };
+		43B6B3191D709E6B001137EE /* note3.png in Resources */ = {isa = PBXBuildFile; fileRef = 43B6B3141D709E6B001137EE /* note3.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		43B6B2F41D708966001137EE /* MyMathUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyMathUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		43B6B2F81D708966001137EE /* MyMathUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMathUITests.swift; sourceTree = "<group>"; };
 		43B6B2FA1D708966001137EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43B6B3071D709368001137EE /* iPhone-5-Wallpaper-HD-abstract-14-Chalkboard-04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "iPhone-5-Wallpaper-HD-abstract-14-Chalkboard-04.jpg"; sourceTree = "<group>"; };
+		43B6B3101D709E6B001137EE /* board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = board.png; sourceTree = "<group>"; };
+		43B6B3121D709E6B001137EE /* note1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = note1.png; sourceTree = "<group>"; };
+		43B6B3131D709E6B001137EE /* note2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = note2.png; sourceTree = "<group>"; };
+		43B6B3141D709E6B001137EE /* note3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = note3.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +87,11 @@
 		43B6B2CC1D708965001137EE = {
 			isa = PBXGroup;
 			children = (
+				43B6B3101D709E6B001137EE /* board.png */,
+				43B6B3121D709E6B001137EE /* note1.png */,
+				43B6B3131D709E6B001137EE /* note2.png */,
+				43B6B3141D709E6B001137EE /* note3.png */,
+				43B6B3071D709368001137EE /* iPhone-5-Wallpaper-HD-abstract-14-Chalkboard-04.jpg */,
 				43B6B2D71D708965001137EE /* MyMath */,
 				43B6B2EC1D708966001137EE /* MyMathTests */,
 				43B6B2F71D708966001137EE /* MyMathUITests */,
@@ -229,9 +244,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43B6B3181D709E6B001137EE /* note2.png in Resources */,
+				43B6B30B1D709368001137EE /* iPhone-5-Wallpaper-HD-abstract-14-Chalkboard-04.jpg in Resources */,
 				43B6B2E31D708965001137EE /* LaunchScreen.storyboard in Resources */,
+				43B6B3151D709E6B001137EE /* board.png in Resources */,
+				43B6B3191D709E6B001137EE /* note3.png in Resources */,
 				43B6B2E01D708965001137EE /* Assets.xcassets in Resources */,
 				43B6B2DE1D708965001137EE /* Main.storyboard in Resources */,
+				43B6B3171D709E6B001137EE /* note1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +504,7 @@
 				43B6B2FF1D708966001137EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		43B6B3001D708966001137EE /* Build configuration list for PBXNativeTarget "MyMathTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +513,7 @@
 				43B6B3021D708966001137EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		43B6B3031D708966001137EE /* Build configuration list for PBXNativeTarget "MyMathUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +522,7 @@
 				43B6B3051D708966001137EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
